@@ -1,0 +1,129 @@
+
+body {
+	margin: 0 auto;
+	min-width: 1000px;
+	font-family:  "helvetica"; 
+}
+
+/*---HEADER---*/
+
+header {
+	/*background-image: url(../images/bgtile.png) ;   Not enough gradient*/
+	background-image: linear-gradient(to bottom, rgb(86,125,160), rgb(57,97,134));
+	height: 270px;
+	width: 100%;
+
+}
+
+/*---MAIN---*/
+
+main {
+	/*display: inline;*/
+	background: white;
+	position
+	width: 100%;
+}
+
+#phones {
+	margin: -180px 20px 50px 80px;
+	float: left;
+	clear: bottom;
+	
+}
+
+#bodybox {
+	display: inline-block;
+	
+}
+
+.titlebox {
+	width: 480px;
+	float: left;
+	margin: -150px 0 0 20px;
+}
+
+#logo{
+
+	float: left;
+	margin:0 10px 0 0;
+	height: 70px;
+}
+
+.login {
+	background-image: linear-gradient(to bottom, rgb(86,125,160), rgb(57,97,134));
+	width: 100px;	
+	border-radius: 5px;	
+	float: right;
+	height: 40px;
+	padding: auto;
+}
+
+#home {
+	float: left;
+}
+
+#textbox {
+	background: url(../images/frame.png) no-repeat;
+	width: 450px;
+	padding: 10px 20px 12px 30px;
+	border-radius: 5px;	
+	margin: -60px 0 0 0;
+}
+
+.appstore {
+	margin: 50px 0 0 0;
+}
+
+.apple {
+	margin-right: 10px;
+}
+
+h1{
+	color: rgb(57,97,134);
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+}
+
+h3{
+	font-weight: 400;
+	margin: 0 auto;
+	font-size: 14px;
+	
+}
+
+p {
+	width: 430px;
+	line-height: 21px;
+	font-size: 13px;
+}
+
+
+
+.loginbox {
+	color: #e0e8ee;
+	text-decoration: none;
+}
+
+/*---FOOTER---*/
+
+footer{
+	
+	text-align: center;
+	margin: 50px;
+	clear: both;
+
+}
+a{
+	color: #567DA0;
+	text-decoration: none;
+	margin: 0px 5px 0 5px;
+	font-weight: bold;
+	font-size: 10px;
+
+}
+
+span {
+	font-weight: bold;
+	font-size: 10px;
+}
